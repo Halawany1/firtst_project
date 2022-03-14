@@ -1,0 +1,48 @@
+.navbar{
+    background-color: rgba(0,  0, 0,0.8);
+
+}
+
+
+.lin{
+    width: 150px;
+    height: 3px;
+    
+    background-color: #ab2f52;
+}
+.active{
+    color: #ffaf53 !important;
+}
+.active:hover, .nav-link:hover{
+    color: #ffaf53 !important;
+}
+
+.main{
+    background-image: url("../Imgs/images/bg1.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+.back1{
+    background-color: rgba(0,  0, 0,0.6);
+}
+.start{
+    background-color: #ab2f52;
+    padding: 12px 45px;
+    color: aliceblue;
+}
+.start:hover{
+    background-color: aliceblue;
+    color: #ffaf53;
+}
+#home-p{
+    opacity: 0;
+    transition: all 1s;
+}
+.text{
+    color: #ab2f52;
+    text-align: center;
+}
+.pop{
+    width: 48%;
+}
